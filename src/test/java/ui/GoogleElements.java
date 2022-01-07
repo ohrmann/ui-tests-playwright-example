@@ -12,7 +12,7 @@ public class GoogleElements {
     private Page page;
     //logo
     private String serachInput = "xpath=//html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div[2]/div[2]/input";
-    private String resultElementSelector = "//*[@id=\"rso\"]/div[1]/div/div/div/div[1]/a/h3";
+    private String resultElementSelector = "text=Devs One";
 
     public GoogleElements(Page page) {
         this.page = page;
